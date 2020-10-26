@@ -33,6 +33,6 @@ export default class Orphanage {
     @JoinColumn({ name: 'orphanage_id' })
     images: Image[];
 
-    // @Column()
-    // contact: string;
+     @Column()
+     contact: string;
 }

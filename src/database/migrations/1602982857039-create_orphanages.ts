@@ -44,10 +44,10 @@ export class createOrphanages1602982857039 implements MigrationInterface {
             type: 'boolean',
             default: false
           },
-          // {
-          //   name: 'contact',
-          //   type: 'text',
-          // },
+          {
+             name: 'contact',
+             type: 'text',
+           },
         ],
       }))
   }
